@@ -96,3 +96,5 @@ function main()
     end
 end
 
+main() -- Call to main function
+
