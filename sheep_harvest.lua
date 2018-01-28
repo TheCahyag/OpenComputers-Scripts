@@ -1,6 +1,6 @@
 --
 -- File: sheep_harvest.lua
--- User: Brandon Bires-Navel (brandonnavel@outlook.com)
+-- Author: Brandon Bires-Navel (brandonnavel@outlook.com)
 --
 
 local robot = require("robot")
