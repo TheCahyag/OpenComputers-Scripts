@@ -23,6 +23,12 @@ end
 -- Where 'C' is the charging station (the robot should be directly above this)
 -- and 'w' is one wheat in the wheat farm. The charging station should be on
 -- the same level as the wheat.
+-- The path the robot takes for a 3x4 area is the follow:
+-- |-| |-|
+-- | | | |
+-- S |-| E
+-- C
+-- The robot starts at 'S' and ends at 'E' then would return to 'C'
 function loop(n, m)
     local wheatHarvested = 0
     local direction = 0 -- 0 for right 1 for left
